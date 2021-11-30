@@ -1,0 +1,135 @@
+html 
+{
+    background: url(../order-summary-component-main/images/pattern-background-desktop.svg) no-repeat;
+    background-size: 100%;
+    background-color:hsl(225, 100%, 94%);
+}
+
+body 
+{
+    text-align: center;
+} 
+
+h1 
+{
+    font-family: 'Red Hat Display';
+    font-size: 1.75em;
+    font-weight: 900;
+    margin-top: 1.5em;
+    margin-bottom: .25em;
+}
+
+h2 
+{
+ font-family: 'Red Hat Display';
+ font-size: 1.25em;
+ font-weight: 900;
+ margin: 0;
+}
+
+img
+{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+#wrapper 
+{ 
+    background-color: white;
+    width: 450px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+#sub 
+{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-right: 13em;
+    padding-left: 6em;
+    margin-bottom: 1em;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+}
+
+#icon
+{  
+    position: absolute;
+    margin-left: 1.5em;
+    left: 0;  
+}
+
+#amount
+{
+    font-family: 'Red Hat Display';
+    font-size: 1.25em;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500; 
+    margin: 0;
+
+}
+
+#change 
+{
+    position: absolute;
+    font-family: 'Red Hat Display';
+    font-weight: 900;
+    margin-right: 2em;
+    right: 0;
+    top: 2.8em;
+}
+
+#payment
+{
+    font-family: 'Red Hat Display';
+    font-weight: 900;
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    padding: 1.15em 8.25em;
+    margin: 1em;
+    border: none;
+    border-radius: 10px;
+}
+
+#cancel 
+{
+    font-family: 'Red Hat Display';
+    font-weight: 900;
+    color: hsl(224, 23%, 55%);
+    padding: 1.15em 8.25em;
+    margin: 1em;
+    margin-bottom: 2em;
+    margin-top: 0;
+    border: none;
+    background: none;
+}
+
+.header 
+{
+    height: 7em;
+}
+
+.info 
+{
+    font-family: 'Red Hat Display';
+    font-size: 1em;
+    font-weight: 500;
+    line-height: 1.5em;
+    color: hsl(224, 23%, 55%);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.attribution 
+{ 
+    margin-top: 30px;
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a 
+{ 
+    margin-top: 30px;
+    color: hsl(228, 45%, 44%); 
+}
