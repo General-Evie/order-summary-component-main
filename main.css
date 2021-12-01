@@ -9,26 +9,30 @@ html
     background-color:hsl(225, 100%, 94%);
 }
 
-body 
+
+main 
 {
-    text-align: center;
-} 
+    padding: 2em 3em;
+}
 
 h1 
 {
+    text-align: center;
     font-family: 'Red Hat Display';
     font-size: 1.75em;
     font-weight: 900;
-    margin-top: 1.5em;
     margin-bottom: .25em;
+    color: hsl(223, 47%, 23%);
 }
 
 h2 
 {
- font-family: 'Red Hat Display';
- font-size: 1.25em;
- font-weight: 900;
- margin: 0;
+    font-family: 'Red Hat Display';
+    font-size: 1em;
+    font-weight: 900;
+    margin: 0;
+    margin-bottom: .5em;
+    color: hsl(223, 47%, 23%);
 }
 
 img
@@ -47,14 +51,15 @@ img
 
 #sub 
 {
-    padding-top: 2em;
-    padding-bottom: 2em;
-    padding-right: 13em;
-    padding-left: 6em;
-    margin-bottom: 1em;
+    display: flex;
+    align-items: center;
+    height: 6em; 
+    width: 100%;
+    margin-bottom: 2em;
     border: none;
     border-radius: 10px;
     position: relative;
+    background-color: hsl(225, 100%, 98%);
 }
 
 #icon
@@ -67,7 +72,7 @@ img
 #amount
 {
     font-family: 'Red Hat Display';
-    font-size: 1.25em;
+    font-size: 1em;
     color: hsl(224, 23%, 55%);
     font-weight: 500; 
     margin: 0;
@@ -76,11 +81,10 @@ img
 
 #change 
 {
-    position: absolute;
     font-family: 'Red Hat Display';
     font-weight: 900;
-    margin-right: 2em;
-    right: 0;
+    font-size: .9em;
+    margin-left: 6.5em;
     top: 2.8em;
 }
 
@@ -88,47 +92,58 @@ img
 {
     font-family: 'Red Hat Display';
     font-weight: 900;
+    font-size: .9em;
+    width: 100%;
     color: white;
+    margin-bottom: 1.5em;
+    padding: 1em 0;
     background-color: hsl(245, 75%, 52%);
-    padding: 1.15em 8.25em;
-    margin: 1em;
     border: none;
     border-radius: 10px;
+    box-shadow: 0 1.5em 1em rgba(0,0,0, .1);
 }
 
 #cancel 
 {
     font-family: 'Red Hat Display';
     font-weight: 900;
+    font-size: .9em;
+    width: 100%;
     color: hsl(224, 23%, 55%);
-    padding: 1.15em 8.25em;
-    margin: 1em;
-    margin-bottom: 2em;
-    margin-top: 0;
+    padding: 1em 0;
     border: none;
     background: none;
 }
 
 .info 
 {
+    text-align: center;
     font-family: 'Red Hat Display';
     font-size: 1em;
     font-weight: 500;
     line-height: 1.5em;
     color: hsl(224, 23%, 55%);
-    width: 70%;
+    width: 85%;
     margin-left: auto;
     margin-right: auto;
+}
+
+.sub-info
+{
+    display: inline;
+    margin-left: 5.5em;
+    height: 3em;
 }
 
 .attribution 
 { 
     position: absolute;
-    margin-top: 30px;
+    margin: 50px;
     bottom: 0;
     left: 0;
     right: 0;
-    font-size: 11px; text-align: center; 
+    font-size: 11px; 
+    text-align: center; 
 }
 
 .attribution a 
