@@ -7,6 +7,10 @@ html
     background: url(../order-summary-component-main/images/pattern-background-desktop.svg) no-repeat;
     background-size: 100%;
     background-color:hsl(225, 100%, 94%);
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+
 }
 
 
@@ -135,6 +139,28 @@ img
     height: 3em;
 }
 
+#change:hover,
+#change:focus
+{
+    cursor: pointer;
+    text-decoration: none;
+    opacity: .6;
+}
+
+#payment:hover,
+#payment:focus
+{
+    cursor: pointer;
+    opacity: .7;
+}
+
+#cancel:hover,
+#cancel:focus
+{
+    cursor: pointer;
+    color: hsl(223, 47%, 23%);
+}
+
 .attribution 
 { 
     position: absolute;
@@ -150,4 +176,9 @@ img
 { 
     margin-top: 30px;
     color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 375px)
+{
+
 }
