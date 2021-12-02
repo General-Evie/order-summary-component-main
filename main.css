@@ -181,6 +181,11 @@ img
 
 @media (max-width: 375px)
 {
+    html
+    {
+        background-image: url(images/pattern-background-mobile.svg);
+    }
+
     main
     {
         padding: .5em 1.5em;
